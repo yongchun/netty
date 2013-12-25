@@ -74,6 +74,9 @@ import java.util.List;
  * of a new buffer type, generation of hex dump and swapping an integer's
  * byte order.
  */
+/**
+ * 将byte数组,java.nio.ByteBuffer和String转变为netty的ByteBuf对象
+ * */
 public final class Unpooled {
 
     private static final ByteBufAllocator ALLOC = UnpooledByteBufAllocator.DEFAULT;
